@@ -1,0 +1,180 @@
+
+src/AdminView.java:1	Avoid unused imports such as 'java.awt.BorderLayout'
+src/AdminView.java:1	Avoid unused imports such as 'java.awt.BorderLayout'
+src/AdminView.java:7	Avoid unused imports such as 'java.awt.GridLayout'
+src/AdminView.java:7	Avoid unused imports such as 'java.awt.GridLayout'
+src/AdminView.java:20	Avoid duplicate imports such as 'java.sql.Connection'
+src/AdminView.java:21	Avoid duplicate imports such as 'java.sql.ResultSet'
+src/AdminView.java:22	Avoid duplicate imports such as 'java.sql.SQLException'
+src/AdminView.java:23	Avoid duplicate imports such as 'javax.swing.DefaultListModel'
+src/AdminView.java:28	All classes and interfaces must belong to a named package
+src/AdminView.java:30	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/AdminView.java:30	Perhaps 'contentPane' could be replaced by a local variable.
+src/AdminView.java:30	Private field 'contentPane' could be made final; it is only initialized in the declaration or constructor.
+src/AdminView.java:31	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/AdminView.java:31	Private field 'textField' could be made final; it is only initialized in the declaration or constructor.
+src/AdminView.java:32	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/AdminView.java:32	Private field 'textField_1' could be made final; it is only initialized in the declaration or constructor.
+src/AdminView.java:32	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/AdminView.java:33	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/AdminView.java:33	Private field 'textField_2' could be made final; it is only initialized in the declaration or constructor.
+src/AdminView.java:33	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/AdminView.java:34	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/AdminView.java:34	Private field 'textField_3' could be made final; it is only initialized in the declaration or constructor.
+src/AdminView.java:34	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/AdminView.java:35	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/AdminView.java:36	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/AdminView.java:37	Use explicit scoping instead of the default package private level
+src/AdminView.java:38	Use explicit scoping instead of the default package private level
+src/AdminView.java:42	Parameter 'args' is not assigned and could be declared final
+src/AdminView.java:43	To be compliant to J2EE, a webapp should not use any thread.
+src/AdminView.java:46	Local variable 'frame' could be declared final
+src/AdminView.java:49	Avoid printStackTrace(); use a logger call instead.
+src/AdminView.java:58	It is a good practice to call super() in a constructor
+src/AdminView.java:68	Local variable 'label' could be declared final
+src/AdminView.java:76	Local variable 'query' could be declared final
+src/AdminView.java:77	Local variable 'con' could be declared final
+src/AdminView.java:78	Always check the return of one of the navigation method (next,previous,first,last) of a ResultSet.
+src/AdminView.java:78	Avoid variables with short names like rs
+src/AdminView.java:78	Local variable 'rs' could be declared final
+src/AdminView.java:89	Avoid printStackTrace(); use a logger call instead.
+src/AdminView.java:98	Parameter 'arg0' is not assigned and could be declared final
+src/AdminView.java:99	Avoid variables with short names like i
+src/AdminView.java:99	Found 'DD'-anomaly for variable 'i' (lines '99'-'100').
+src/AdminView.java:99	Found 'DD'-anomaly for variable 'i' (lines '99'-'100').
+src/AdminView.java:102	Ensure that resources like this Connection object are closed after use
+src/AdminView.java:105	Avoid variables with short names like rs
+src/AdminView.java:105	Ensure that resources like this ResultSet object are closed after use
+src/AdminView.java:117	Avoid printStackTrace(); use a logger call instead.
+src/AdminView.java:165	Avoid variables with short names like e
+src/AdminView.java:165	Parameter 'e' is not assigned and could be declared final
+src/AdminView.java:166	Found 'DD'-anomaly for variable 'query' (lines '166'-'168').
+src/AdminView.java:166	Found 'DD'-anomaly for variable 'query' (lines '166'-'168').
+src/AdminView.java:168	Prefer StringBuffer over += for concatenating strings
+src/AdminView.java:170	Prefer StringBuffer over += for concatenating strings
+src/AdminView.java:172	Prefer StringBuffer over += for concatenating strings
+src/AdminView.java:174	Prefer StringBuffer over += for concatenating strings
+src/AdminView.java:176	Prefer StringBuffer over += for concatenating strings
+src/AdminView.java:179	Ensure that resources like this Connection object are closed after use
+src/AdminView.java:182	Avoid variables with short names like rs
+src/AdminView.java:182	Ensure that resources like this ResultSet object are closed after use
+src/AdminView.java:194	Avoid printStackTrace(); use a logger call instead.
+src/CashierView.java:1	Avoid unused imports such as 'java.awt.Color'
+src/CashierView.java:1	Avoid unused imports such as 'java.awt.Color'
+src/CashierView.java:21	Avoid unused imports such as 'javax.swing.JTable'
+src/CashierView.java:21	Avoid unused imports such as 'javax.swing.JTable'
+src/CashierView.java:26	All classes and interfaces must belong to a named package
+src/CashierView.java:26	The class 'CashierView' has a Cyclomatic Complexity of 9 (Highest = 14).
+src/CashierView.java:28	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/CashierView.java:28	Perhaps 'contentPane' could be replaced by a local variable.
+src/CashierView.java:28	Private field 'contentPane' could be made final; it is only initialized in the declaration or constructor.
+src/CashierView.java:29	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/CashierView.java:29	Private field 'textField' could be made final; it is only initialized in the declaration or constructor.
+src/CashierView.java:30	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/CashierView.java:35	Parameter 'args' is not assigned and could be declared final
+src/CashierView.java:36	To be compliant to J2EE, a webapp should not use any thread.
+src/CashierView.java:39	Local variable 'frame' could be declared final
+src/CashierView.java:42	Avoid printStackTrace(); use a logger call instead.
+src/CashierView.java:51	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/CashierView.java:51	Use explicit scoping instead of the default package private level
+src/CashierView.java:52	Use explicit scoping instead of the default package private level
+src/CashierView.java:53	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/CashierView.java:53	Private field 'textField_cn' could be made final; it is only initialized in the declaration or constructor.
+src/CashierView.java:53	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/CashierView.java:54	Private field 'textField_rr' could be made final; it is only initialized in the declaration or constructor.
+src/CashierView.java:54	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/CashierView.java:55	Private field 'textField_fr' could be made final; it is only initialized in the declaration or constructor.
+src/CashierView.java:55	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/CashierView.java:56	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/CashierView.java:57	It is a good practice to call super() in a constructor
+src/CashierView.java:57	The constructor 'CashierView' has a Cyclomatic Complexity of 14.
+src/CashierView.java:67	Local variable 'label' could be declared final
+src/CashierView.java:79	Local variable 'query' could be declared final
+src/CashierView.java:80	Local variable 'con' could be declared final
+src/CashierView.java:81	Always check the return of one of the navigation method (next,previous,first,last) of a ResultSet.
+src/CashierView.java:81	Avoid variables with short names like rs
+src/CashierView.java:81	Local variable 'rs' could be declared final
+src/CashierView.java:92	Avoid printStackTrace(); use a logger call instead.
+src/CashierView.java:102	Parameter 'arg0' is not assigned and could be declared final
+src/CashierView.java:103	Avoid variables with short names like i
+src/CashierView.java:103	Found 'DD'-anomaly for variable 'i' (lines '103'-'104').
+src/CashierView.java:103	Found 'DD'-anomaly for variable 'i' (lines '103'-'104').
+src/CashierView.java:103	Found 'DD'-anomaly for variable 'i' (lines '103'-'104').
+src/CashierView.java:103	Found 'DD'-anomaly for variable 'i' (lines '103'-'104').
+src/CashierView.java:103	Found 'DD'-anomaly for variable 'i' (lines '103'-'104').
+src/CashierView.java:106	Ensure that resources like this Connection object are closed after use
+src/CashierView.java:107	Avoid variables with short names like rs
+src/CashierView.java:107	Ensure that resources like this ResultSet object are closed after use
+src/CashierView.java:126	Avoid printStackTrace(); use a logger call instead.
+src/CashierView.java:136	Document empty method
+src/CashierView.java:136	Parameter 'arg0' is not assigned and could be declared final
+src/CashierView.java:175	Parameter 'arg0' is not assigned and could be declared final
+src/CashierView.java:176	Avoid variables with short names like i
+src/CashierView.java:176	Found 'DD'-anomaly for variable 'i' (lines '176'-'177').
+src/CashierView.java:176	Found 'DD'-anomaly for variable 'i' (lines '176'-'177').
+src/CashierView.java:176	Found 'DD'-anomaly for variable 'i' (lines '176'-'177').
+src/CashierView.java:176	Found 'DD'-anomaly for variable 'i' (lines '176'-'177').
+src/CashierView.java:176	Found 'DD'-anomaly for variable 'i' (lines '176'-'177').
+src/CashierView.java:179	Ensure that resources like this Connection object are closed after use
+src/CashierView.java:180	Avoid variables with short names like rs
+src/CashierView.java:180	Ensure that resources like this ResultSet object are closed after use
+src/CashierView.java:191	Avoid printStackTrace(); use a logger call instead.
+src/CashierView.java:215	Parameter 'arg0' is not assigned and could be declared final
+src/CashierView.java:216	Found 'DD'-anomaly for variable 'i' (lines '216'-'217').
+src/CashierView.java:216	Found 'DD'-anomaly for variable 'i' (lines '216'-'217').
+src/CashierView.java:216	Found 'DD'-anomaly for variable 'i' (lines '216'-'217').
+src/CashierView.java:216	Found 'DD'-anomaly for variable 'i' (lines '216'-'217').
+src/CashierView.java:216	Found 'DD'-anomaly for variable 'i' (lines '216'-'217').
+src/CashierView.java:218	Found 'DD'-anomaly for variable 'query' (lines '218'-'223').
+src/CashierView.java:218	Found 'DD'-anomaly for variable 'query' (lines '218'-'223').
+src/CashierView.java:218	Found 'DD'-anomaly for variable 'query' (lines '218'-'223').
+src/CashierView.java:218	Found 'DD'-anomaly for variable 'query' (lines '218'-'223').
+src/CashierView.java:218	Found 'DD'-anomaly for variable 'query' (lines '218'-'223').
+src/CashierView.java:218	Found 'DD'-anomaly for variable 'query' (lines '218'-'228').
+src/CashierView.java:218	Found 'DD'-anomaly for variable 'query' (lines '218'-'228').
+src/CashierView.java:218	Found 'DD'-anomaly for variable 'query' (lines '218'-'228').
+src/CashierView.java:218	Found 'DD'-anomaly for variable 'query' (lines '218'-'228').
+src/CashierView.java:218	Found 'DD'-anomaly for variable 'query' (lines '218'-'228').
+src/CashierView.java:218	Found 'DD'-anomaly for variable 'query' (lines '218'-'233').
+src/CashierView.java:218	Found 'DD'-anomaly for variable 'query' (lines '218'-'233').
+src/CashierView.java:218	Found 'DD'-anomaly for variable 'query' (lines '218'-'233').
+src/CashierView.java:218	Found 'DD'-anomaly for variable 'query' (lines '218'-'233').
+src/CashierView.java:218	Found 'DD'-anomaly for variable 'query' (lines '218'-'233').
+src/CashierView.java:220	Found 'DD'-anomaly for variable 'fr' (lines '220'-'221').
+src/CashierView.java:220	Found 'DD'-anomaly for variable 'fr' (lines '220'-'221').
+src/CashierView.java:220	Found 'DD'-anomaly for variable 'fr' (lines '220'-'221').
+src/CashierView.java:220	Found 'DD'-anomaly for variable 'fr' (lines '220'-'221').
+src/CashierView.java:220	Found 'DD'-anomaly for variable 'fr' (lines '220'-'221').
+src/CashierView.java:225	Found 'DD'-anomaly for variable 'cn' (lines '225'-'226').
+src/CashierView.java:225	Found 'DD'-anomaly for variable 'cn' (lines '225'-'226').
+src/CashierView.java:225	Found 'DD'-anomaly for variable 'cn' (lines '225'-'226').
+src/CashierView.java:225	Found 'DD'-anomaly for variable 'cn' (lines '225'-'226').
+src/CashierView.java:225	Found 'DD'-anomaly for variable 'cn' (lines '225'-'226').
+src/CashierView.java:230	Found 'DD'-anomaly for variable 'rr' (lines '230'-'231').
+src/CashierView.java:230	Found 'DD'-anomaly for variable 'rr' (lines '230'-'231').
+src/CashierView.java:230	Found 'DD'-anomaly for variable 'rr' (lines '230'-'231').
+src/CashierView.java:230	Found 'DD'-anomaly for variable 'rr' (lines '230'-'231').
+src/CashierView.java:230	Found 'DD'-anomaly for variable 'rr' (lines '230'-'231').
+src/CashierView.java:236	Ensure that resources like this Connection object are closed after use
+src/Handler.java:3	All classes and interfaces must belong to a named package
+src/Handler.java:3	All methods are static.  Consider using Singleton instead.  Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/Handler.java:8	Ensure that resources like this Connection object are closed after use
+src/Handler.java:8	Found 'DD'-anomaly for variable 'connection' (lines '8'-'19').
+src/Handler.java:11	Local variable 'driverName' could be declared final
+src/Handler.java:16	Local variable 'url' could be declared final
+src/Handler.java:17	Local variable 'username' could be declared final
+src/Handler.java:18	Local variable 'password' could be declared final
+src/Handler.java:20	Avoid empty catch blocks
+src/Handler.java:22	Avoid empty catch blocks
+src/Handler.java:28	Parameter 'connection' is not assigned and could be declared final
+src/Handler.java:28	Parameter 'query' is not assigned and could be declared final
+src/Handler.java:33	Ensure that resources like this Statement object are closed after use
+src/Handler.java:33	Local variable 'statement' could be declared final
+src/Handler.java:35	A method should have only one exit point, and that should be the last statement in the method
+src/Handler.java:38	Avoid printStackTrace(); use a logger call instead.
+src/Handler.java:45	Parameter 'connection' is not assigned and could be declared final
+src/Handler.java:53	Avoid printStackTrace(); use a logger call instead.
+src/MainClass.java:2	All classes and interfaces must belong to a named package
+src/MainClass.java:2	All methods are static.  Consider using Singleton instead.  Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/MainClass.java:5	Parameter 'args' is not assigned and could be declared final
+src/MainClass.java:7	Local variable 'cView' could be declared final

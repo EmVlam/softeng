@@ -1,0 +1,218 @@
+Found a 23 line (98 tokens) duplication in the following files: 
+Starting at line 76 of C:\Users\Manolis\softeng\TheaterTickets\src\CashierView.java
+Starting at line 74 of C:\Users\Manolis\softeng\TheaterTickets\src\AdminView.java
+
+		list.setBounds(10, 52, 450, 87);
+		contentPane.add(list);
+		String query = "select * from Tickets;";
+		Connection con = Handler.connect();
+		ResultSet rs = Handler.executeQuery(query, con);
+		
+		try{
+			while (rs.next()){
+				
+				String str=rs.getString(2) + " "+rs.getString(4) + " "+rs.getString(5);
+				
+				model.addElement(str);
+			}
+		} catch (SQLException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		finally
+		{
+			Handler.disconnect(con);
+		}
+		
+		JButton button_1 = new JButton("\u0394\u0399\u0391\u0393\u03A1\u0391\u03A6\u0397");
+=====================================================================
+Found a 17 line (68 tokens) duplication in the following files: 
+Starting at line 81 of C:\Users\Manolis\softeng\TheaterTickets\src\CashierView.java
+Starting at line 106 of C:\Users\Manolis\softeng\TheaterTickets\src\AdminView.java
+
+				model.clear();
+				
+				try{
+					while (rs.next()){
+						
+						String str=rs.getString(2) + " "+rs.getString(4) + " "+rs.getString(5);
+						
+						model.addElement(str);
+					}
+				} catch (SQLException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+				finally
+				{
+					Handler.disconnect(con);
+				}
+=====================================================================
+Found a 15 line (58 tokens) duplication in the following files: 
+Starting at line 111 of C:\Users\Manolis\softeng\TheaterTickets\src\AdminView.java
+Starting at line 188 of C:\Users\Manolis\softeng\TheaterTickets\src\AdminView.java
+
+							str=rs.getString(2) + " "+rs.getString(4) + " "+rs.getString(5);
+							
+							model.addElement(str);
+						}
+					} catch (SQLException e1) {
+						// TODO Auto-generated catch block
+						e1.printStackTrace();
+					}
+					finally
+					{
+						Handler.disconnect(con);
+					}
+			}
+			
+		});
+=====================================================================
+Found a 11 line (58 tokens) duplication in the following files: 
+Starting at line 102 of C:\Users\Manolis\softeng\TheaterTickets\src\CashierView.java
+Starting at line 175 of C:\Users\Manolis\softeng\TheaterTickets\src\CashierView.java
+
+			public void mouseClicked(MouseEvent arg0) {
+				int i = list.getSelectedIndex();
+				i++;
+				String query = "select * from Tickets where ID="+i+";";
+				Connection con = Handler.connect();
+				ResultSet rs = Handler.executeQuery(query, con);
+				
+				try{
+					while (rs.next()){
+
+						String str=rs.getString(10);
+=====================================================================
+Found a 12 line (55 tokens) duplication in the following files: 
+Starting at line 86 of C:\Users\Manolis\softeng\TheaterTickets\src\CashierView.java
+Starting at line 188 of C:\Users\Manolis\softeng\TheaterTickets\src\AdminView.java
+
+							str=rs.getString(2) + " "+rs.getString(4) + " "+rs.getString(5);
+							
+							model.addElement(str);
+						}
+					} catch (SQLException e1) {
+						// TODO Auto-generated catch block
+						e1.printStackTrace();
+					}
+					finally
+					{
+						Handler.disconnect(con);
+					}
+=====================================================================
+Found a 8 line (46 tokens) duplication in the following files: 
+Starting at line 102 of C:\Users\Manolis\softeng\TheaterTickets\src\AdminView.java
+Starting at line 179 of C:\Users\Manolis\softeng\TheaterTickets\src\AdminView.java
+
+					Connection con = Handler.connect();
+					Handler.executeQuery(query, con);
+					query = "select * from Tickets;";
+					ResultSet rs = Handler.executeQuery(query, con);
+					model.clear();
+					
+					try{
+						while (rs.next()){
+=====================================================================
+Found a 7 line (37 tokens) duplication in the following files: 
+Starting at line 80 of C:\Users\Manolis\softeng\TheaterTickets\src\CashierView.java
+Starting at line 106 of C:\Users\Manolis\softeng\TheaterTickets\src\CashierView.java
+
+				Connection con = Handler.connect();
+				ResultSet rs = Handler.executeQuery(query, con);
+				
+				try{
+					while (rs.next()){
+						
+						String str=rs.getString(3);
+=====================================================================
+Found a 15 line (33 tokens) duplication in the following files: 
+Starting at line 120 of C:\Users\Manolis\softeng\TheaterTickets\src\CashierView.java
+Starting at line 185 of C:\Users\Manolis\softeng\TheaterTickets\src\CashierView.java
+
+						String str=rs.getString(10);
+						textField_pr.setText(str);
+		
+					}
+				} catch (SQLException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+				finally
+				{
+					Handler.disconnect(con);
+				}
+
+			}
+		});
+=====================================================================
+Found a 6 line (33 tokens) duplication in the following files: 
+Starting at line 62 of C:\Users\Manolis\softeng\TheaterTickets\src\CashierView.java
+Starting at line 63 of C:\Users\Manolis\softeng\TheaterTickets\src\AdminView.java
+
+		contentPane.setBackground(new Color(238, 232, 170));
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		setContentPane(contentPane);
+		contentPane.setLayout(null);
+		
+		JLabel label = new JLabel("\u03A0\u0391\u03A1\u0391\u03A3\u03A4\u0391\u03A3\u0395\u0399\u03A3");
+=====================================================================
+Found a 6 line (33 tokens) duplication in the following files: 
+Starting at line 57 of C:\Users\Manolis\softeng\TheaterTickets\src\CashierView.java
+Starting at line 58 of C:\Users\Manolis\softeng\TheaterTickets\src\AdminView.java
+
+	public AdminView() {
+		setResizable(false);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 640, 480);
+		contentPane = new JPanel();
+		contentPane.setBackground(new Color(238, 232, 170));
+=====================================================================
+Found a 5 line (29 tokens) duplication in the following files: 
+Starting at line 101 of C:\Users\Manolis\softeng\TheaterTickets\src\CashierView.java
+Starting at line 214 of C:\Users\Manolis\softeng\TheaterTickets\src\CashierView.java
+Starting at line 97 of C:\Users\Manolis\softeng\TheaterTickets\src\AdminView.java
+
+		button_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				int i = list.getSelectedIndex();
+				i++;
+				String query = "delete from Tickets where ID="+i+";";
+=====================================================================
+Found a 4 line (28 tokens) duplication in the following files: 
+Starting at line 35 of C:\Users\Manolis\softeng\TheaterTickets\src\CashierView.java
+Starting at line 42 of C:\Users\Manolis\softeng\TheaterTickets\src\AdminView.java
+
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+=====================================================================
+Found a 11 line (26 tokens) duplication in the following files: 
+Starting at line 88 of C:\Users\Manolis\softeng\TheaterTickets\src\CashierView.java
+Starting at line 121 of C:\Users\Manolis\softeng\TheaterTickets\src\CashierView.java
+
+						textField_pr.setText(str);
+		
+					}
+				} catch (SQLException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+				finally
+				{
+					Handler.disconnect(con);
+				}
+=====================================================================
+Found a 8 line (25 tokens) duplication in the following files: 
+Starting at line 39 of C:\Users\Manolis\softeng\TheaterTickets\src\CashierView.java
+Starting at line 46 of C:\Users\Manolis\softeng\TheaterTickets\src\AdminView.java
+
+					AdminView frame = new AdminView();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}

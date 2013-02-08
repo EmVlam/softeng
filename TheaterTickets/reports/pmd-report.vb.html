@@ -1,0 +1,191 @@
+<html><head><title>PMD</title></head><style type="text/css"><!--
+body { background-color: white; font-family:verdana, arial, helvetica, geneva; font-size: 16px; font-style: italic; color: black; }
+.title { font-family: verdana, arial, helvetica,geneva; font-size: 12px; font-weight:bold; color: white; }
+.body { font-family: verdana, arial, helvetica, geneva; font-size: 12px; font-weight:plain; color: black; }
+#TableHeader { background-color: #003366; }
+#RowColor1 { background-color: #eeeeee; }
+#RowColor2 { background-color: white; }
+--></style><body><center><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/AdminView.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>1&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid unused imports such as 'java.awt.BorderLayout'</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>1&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid unused imports such as 'java.awt.BorderLayout'</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>7&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid unused imports such as 'java.awt.GridLayout'</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>7&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid unused imports such as 'java.awt.GridLayout'</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>20&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid duplicate imports such as 'java.sql.Connection'</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>21&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid duplicate imports such as 'java.sql.ResultSet'</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>22&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid duplicate imports such as 'java.sql.SQLException'</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>23&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid duplicate imports such as 'javax.swing.DefaultListModel'</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>28&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>All classes and interfaces must belong to a named package</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>30&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found non-transient, non-static member. Please mark as transient or provide accessors.</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>30&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Perhaps 'contentPane' could be replaced by a local variable.</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>30&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Private field 'contentPane' could be made final; it is only initialized in the declaration or constructor.</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>31&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found non-transient, non-static member. Please mark as transient or provide accessors.</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>31&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Private field 'textField' could be made final; it is only initialized in the declaration or constructor.</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>32&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found non-transient, non-static member. Please mark as transient or provide accessors.</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>32&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Private field 'textField_1' could be made final; it is only initialized in the declaration or constructor.</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>32&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>33&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found non-transient, non-static member. Please mark as transient or provide accessors.</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>33&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Private field 'textField_2' could be made final; it is only initialized in the declaration or constructor.</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>33&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>34&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found non-transient, non-static member. Please mark as transient or provide accessors.</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>34&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Private field 'textField_3' could be made final; it is only initialized in the declaration or constructor.</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>34&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>35&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>36&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>37&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Use explicit scoping instead of the default package private level</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>38&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Use explicit scoping instead of the default package private level</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>42&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'args' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>43&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>To be compliant to J2EE, a webapp should not use any thread.</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>46&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'frame' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>49&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid printStackTrace(); use a logger call instead.</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>58&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>It is a good practice to call super() in a constructor</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>68&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'label' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>76&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'query' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>77&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'con' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>78&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Always check the return of one of the navigation method (next,previous,first,last) of a ResultSet.</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>78&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid variables with short names like rs</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>78&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'rs' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>89&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid printStackTrace(); use a logger call instead.</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>98&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'arg0' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>99&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid variables with short names like i</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>99&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'i' (lines '99'-'100').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>99&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'i' (lines '99'-'100').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>102&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Ensure that resources like this Connection object are closed after use</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>105&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid variables with short names like rs</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>105&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Ensure that resources like this ResultSet object are closed after use</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>117&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid printStackTrace(); use a logger call instead.</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>165&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid variables with short names like e</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>165&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'e' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>166&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'query' (lines '166'-'168').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>166&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'query' (lines '166'-'168').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>168&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Prefer StringBuffer over += for concatenating strings</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>170&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Prefer StringBuffer over += for concatenating strings</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>172&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Prefer StringBuffer over += for concatenating strings</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>174&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Prefer StringBuffer over += for concatenating strings</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>176&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Prefer StringBuffer over += for concatenating strings</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>179&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Ensure that resources like this Connection object are closed after use</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>182&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid variables with short names like rs</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>182&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Ensure that resources like this ResultSet object are closed after use</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>194&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid printStackTrace(); use a logger call instead.</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/CashierView.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>1&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid unused imports such as 'java.awt.Color'</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>1&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid unused imports such as 'java.awt.Color'</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>21&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid unused imports such as 'javax.swing.JTable'</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>21&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid unused imports such as 'javax.swing.JTable'</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>26&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>All classes and interfaces must belong to a named package</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>26&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>The class 'CashierView' has a Cyclomatic Complexity of 9 (Highest = 14).</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>28&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found non-transient, non-static member. Please mark as transient or provide accessors.</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>28&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Perhaps 'contentPane' could be replaced by a local variable.</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>28&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Private field 'contentPane' could be made final; it is only initialized in the declaration or constructor.</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>29&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found non-transient, non-static member. Please mark as transient or provide accessors.</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>29&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Private field 'textField' could be made final; it is only initialized in the declaration or constructor.</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>30&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found non-transient, non-static member. Please mark as transient or provide accessors.</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>35&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'args' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>36&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>To be compliant to J2EE, a webapp should not use any thread.</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>39&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'frame' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>42&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid printStackTrace(); use a logger call instead.</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>51&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found non-transient, non-static member. Please mark as transient or provide accessors.</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>51&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Use explicit scoping instead of the default package private level</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>52&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Use explicit scoping instead of the default package private level</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>53&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found non-transient, non-static member. Please mark as transient or provide accessors.</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>53&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Private field 'textField_cn' could be made final; it is only initialized in the declaration or constructor.</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>53&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>54&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Private field 'textField_rr' could be made final; it is only initialized in the declaration or constructor.</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>54&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>55&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Private field 'textField_fr' could be made final; it is only initialized in the declaration or constructor.</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>55&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>56&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>57&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>It is a good practice to call super() in a constructor</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>57&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>The constructor 'CashierView' has a Cyclomatic Complexity of 14.</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>67&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'label' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>79&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'query' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>80&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'con' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>81&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Always check the return of one of the navigation method (next,previous,first,last) of a ResultSet.</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>81&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid variables with short names like rs</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>81&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'rs' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>92&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid printStackTrace(); use a logger call instead.</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>102&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'arg0' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>103&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid variables with short names like i</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>103&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'i' (lines '103'-'104').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>103&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'i' (lines '103'-'104').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>103&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'i' (lines '103'-'104').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>103&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'i' (lines '103'-'104').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>103&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'i' (lines '103'-'104').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>106&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Ensure that resources like this Connection object are closed after use</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>107&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid variables with short names like rs</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>107&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Ensure that resources like this ResultSet object are closed after use</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>126&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid printStackTrace(); use a logger call instead.</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>136&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Document empty method</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>136&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'arg0' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>175&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'arg0' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>176&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid variables with short names like i</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>176&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'i' (lines '176'-'177').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>176&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'i' (lines '176'-'177').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>176&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'i' (lines '176'-'177').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>176&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'i' (lines '176'-'177').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>176&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'i' (lines '176'-'177').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>179&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Ensure that resources like this Connection object are closed after use</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>180&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid variables with short names like rs</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>180&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Ensure that resources like this ResultSet object are closed after use</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>191&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid printStackTrace(); use a logger call instead.</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>215&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'arg0' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>216&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'i' (lines '216'-'217').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>216&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'i' (lines '216'-'217').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>216&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'i' (lines '216'-'217').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>216&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'i' (lines '216'-'217').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>216&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'i' (lines '216'-'217').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>218&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'query' (lines '218'-'223').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>218&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'query' (lines '218'-'223').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>218&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'query' (lines '218'-'223').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>218&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'query' (lines '218'-'223').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>218&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'query' (lines '218'-'223').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>218&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'query' (lines '218'-'228').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>218&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'query' (lines '218'-'228').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>218&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'query' (lines '218'-'228').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>218&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'query' (lines '218'-'228').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>218&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'query' (lines '218'-'228').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>218&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'query' (lines '218'-'233').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>218&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'query' (lines '218'-'233').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>218&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'query' (lines '218'-'233').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>218&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'query' (lines '218'-'233').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>218&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'query' (lines '218'-'233').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>220&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'fr' (lines '220'-'221').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>220&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'fr' (lines '220'-'221').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>220&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'fr' (lines '220'-'221').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>220&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'fr' (lines '220'-'221').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>220&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'fr' (lines '220'-'221').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>225&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'cn' (lines '225'-'226').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>225&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'cn' (lines '225'-'226').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>225&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'cn' (lines '225'-'226').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>225&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'cn' (lines '225'-'226').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>225&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'cn' (lines '225'-'226').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>230&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'rr' (lines '230'-'231').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>230&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'rr' (lines '230'-'231').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>230&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'rr' (lines '230'-'231').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>230&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'rr' (lines '230'-'231').</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>230&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'rr' (lines '230'-'231').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>236&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Ensure that resources like this Connection object are closed after use</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/Handler.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>3&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>All classes and interfaces must belong to a named package</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>3&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>All methods are static.  Consider using Singleton instead.  Alternatively, you could add a private constructor or make the class abstract to silence this warning.</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>8&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Ensure that resources like this Connection object are closed after use</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>8&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Found 'DD'-anomaly for variable 'connection' (lines '8'-'19').</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>11&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'driverName' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>16&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'url' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>17&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'username' could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>18&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'password' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>20&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid empty catch blocks</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>22&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid empty catch blocks</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>28&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'connection' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>28&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'query' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>33&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Ensure that resources like this Statement object are closed after use</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>33&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'statement' could be declared final</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>35&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>A method should have only one exit point, and that should be the last statement in the method</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>38&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid printStackTrace(); use a logger call instead.</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>45&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'connection' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>53&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Avoid printStackTrace(); use a logger call instead.</font></td></tr>
+</table></br><table border="0" width="80%"><tr id=TableHeader><td colspan="2"><font class=title>&nbsp;src/MainClass.java</font></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>2&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>All classes and interfaces must belong to a named package</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>2&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>All methods are static.  Consider using Singleton instead.  Alternatively, you could add a private constructor or make the class abstract to silence this warning.</font></td></tr>
+<tr id=RowColor2><td width="50" align="right"><font class=body>5&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Parameter 'args' is not assigned and could be declared final</font></td></tr>
+<tr id=RowColor1><td width="50" align="right"><font class=body>7&nbsp;&nbsp;&nbsp;</font></td><td><font class=body>Local variable 'cView' could be declared final</font></td></tr>
+</table><br></center></body></html>

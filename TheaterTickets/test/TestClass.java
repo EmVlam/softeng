@@ -1,0 +1,34 @@
+import static org.junit.Assert.*;
+
+import java.sql.ResultSet;
+
+
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+import org.junit.AfterClass;
+import org.junit.BeforeClass;
+
+
+public class TestClass {
+
+	public Handler tester = new Handler();
+	public CashierView casView =  new CashierView();
+	public AdminView adView = new AdminView();
+	public MainClass maincl = new MainClass();
+	
+	@Test
+	public void testConnect() {
+		assertNotNull(tester.connect());
+	}
+	
+	@Test
+	 public void testExecuteQuery() {
+		assertNotNull(tester.executeQuery("select * from Tickets;",tester.connect()));
+	}
+	
+	@Test
+	public void testDisconnect() {
+		tester.disconnect(tester.connect());
+	}
+
+}

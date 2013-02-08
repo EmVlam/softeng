@@ -1,0 +1,29 @@
+import java.sql.*;
+import java.sql.DriverManager;
+
+public class Handler {
+	
+	Connection con = null;
+    PreparedStatement pstmt = null; 
+	
+	con = DriverManager.getConnection("jdbc:default:connection");
+	
+	
+	
+	
+	
+	
+	
+	
+	//ResultSet rs = stmt.executeQuery(q);
+	
+	/*while (rs.next()){
+		
+		//str=rs.getString(1) + " "+rs.getString(2) + " "+rs.getString(3);
+		
+		System.out.println(str);
+	}
+	rs.close();
+	stmt.close();*/
+
+}

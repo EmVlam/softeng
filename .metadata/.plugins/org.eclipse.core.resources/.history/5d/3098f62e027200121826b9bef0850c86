@@ -1,0 +1,22 @@
+import static org.junit.Assert.*;
+
+
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+import org.junit.AfterClass;
+import org.junit.BeforeClass;
+
+
+
+
+public class TestClass {
+
+	public Handler tester = new Handler();
+	
+	@Test
+	public void testConnect() {
+		assertNotNull(tester.connect());
+	}
+
+
+}
